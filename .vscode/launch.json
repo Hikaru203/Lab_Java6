@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab3AdvancedthymeleafApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.Lab3AdvancedthymeleafApplication",
+            "projectName": "Lab3-ADVANCEDTHYMELEAF"
+        },
+        {
+            "type": "java",
             "name": "Lab2Thymeleaf1Application",
             "request": "launch",
             "mainClass": "com.springboot.Lab2Thymeleaf1Application",
