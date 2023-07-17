@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JacksonMain<Lab1-StreamAPI-JackJsonAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.controller.JacksonMain",
+            "projectName": "Lab1-StreamAPI-JackJsonAPI",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JacksonMainV2<Lab1-StreamAPI-JackJsonAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.controller.JacksonMainV2",
+            "projectName": "Lab1-StreamAPI-JackJsonAPI",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
