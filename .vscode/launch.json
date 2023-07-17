@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab2Thymeleaf1Application",
+            "request": "launch",
+            "mainClass": "com.springboot.Lab2Thymeleaf1Application",
+            "projectName": "Lab2-Thymeleaf-1"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-JacksonMain<Lab1-StreamAPI-JackJsonAPI>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
