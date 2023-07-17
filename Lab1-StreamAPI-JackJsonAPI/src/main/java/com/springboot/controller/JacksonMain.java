@@ -36,4 +36,5 @@ public class JacksonMain {
 			System.out.println(Subject.asText());
 		});
 	}
+	
 }

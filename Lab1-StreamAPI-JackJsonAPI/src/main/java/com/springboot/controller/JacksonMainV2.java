@@ -2,11 +2,11 @@ package com.springboot.controller;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.ArrayList;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -77,8 +77,8 @@ public class JacksonMainV2 {
 
 		String json = mapper.writeValueAsString(student);
 		System.out.println(json);
-		mapper.writeValue(System.out, student);
-		mapper.writeValue(new File("Lab1-StreamAPI-JackJsonAPI/src/main/resources/static/students.json"), student);
+		// mapper.writeValue(System.out, student);
+		mapper.writeValue(new File("Lab1-StreamAPI-JackJsonAPI/src/main/resources/static/students1.json"), student);
 	}
 
 	private static void demo4() throws IOException {

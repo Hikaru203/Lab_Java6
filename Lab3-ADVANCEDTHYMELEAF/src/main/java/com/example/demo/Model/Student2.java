@@ -13,21 +13,21 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student2 {
-    @NotBlank(message = "{NotBlank.student2.email}")
-    @Email(message = "{Email.student2.email}")
+    @NotBlank(message = "{NotEmpty.student.email}")
+    @Email(message = "{Email.student.email}")
     private String email;
 
-    @NotBlank(message = "{NotBlank.student2.fullName}")
+    @NotBlank(message = "{NotEmpty.student.fullName}")
     private String fullName;
 
-    @NotNull(message = "{NotNull.student2.marks}")
-    @PositiveOrZero(message = "{PositiveOrZero.student2.marks}")
-    @Max(message = "{Max.student2.marks}", value = 10)
+    @NotNull(message = "{NotNull.student.marks}")
+    @PositiveOrZero(message = "{PositiveOrZero.student.marks}")
+    @Max(message = "{Max.student.marks}", value = 10)
     private Double marks;
 
-    @NotNull(message = "{NotNull.student2.gender}")
+    @NotNull(message = "{NotNull.student.gender}")
     private Boolean gender;
 
-    @NotBlank(message = "{NotBlank.student2.country}")
+    @NotBlank(message = "{NotEmpty.student.country}")
     private String country;
 }

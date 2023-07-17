@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab1StreamApiJackJsonApiApplication",
+            "request": "launch",
+            "mainClass": "com.springboot.Lab1StreamApiJackJsonApiApplication",
+            "projectName": "Lab1-StreamAPI-JackJsonAPI"
+        },
+        {
+            "type": "java",
             "name": "Lab3AdvancedthymeleafApplication",
             "request": "launch",
             "mainClass": "com.example.demo.Lab3AdvancedthymeleafApplication",
